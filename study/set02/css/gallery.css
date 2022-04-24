@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+article{width:660px; margin: 0 auto; padding:10px 0 15px; background-color: #ccc;}
+article>h1{
+    margin-bottom:15px;
+    font:bold 32px/50px Arial,sans-serif;
+    background-color: violet;
+    color:#fff;
+    text-align: center;
+}
+article>ul{
+    background-color: green;
+    overflow: hidden;
+}
+
+article>ul>li{
+    /* margin: 0 10px 20px;
+    float:left; */
+    margin: 0 10px 20px;
+    float:left;
+}

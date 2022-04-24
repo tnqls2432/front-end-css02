@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container{
+    width:650px;
+    height:500px;
+    background-color:brown;
+    margin:50px auto;
+    box-sizing: border-box;
+ 
+    /* overflow: hidden; */
+
+    
+}
+section{
+    padding-bottom:10px;
+}
+h1{
+    text-align: center;
+    font-size:3em;
+    font-style:italic
+}
+article{
+    overflow:hidden;
+    padding-bottom:5px;
+    font-style: italic;
+}
+
+.left{
+    width:290px;
+    height:360px;
+    float:left;
+    background-color: bisque;
+    margin-left:10px;
+}
+
+.right{
+    width:290px;
+    height:360px;
+    float:right;
+    background-color: aquamarine;
+    margin-right:10px;
+}
+/* .boxsize{
+    position:fixed;
+    width:680px;
+    height:600px;
+    z-index:400;
+    background-color:chartreuse;
+}
+.boxsize1{
+    position: fixed;
+    width:650px;
+    height:700px;
+    z-index:400;
+    background-color: deepskyblue;
+} */
+
+
+
+
+
+
+
+
+
+

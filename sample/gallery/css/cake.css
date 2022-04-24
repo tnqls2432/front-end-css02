@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+article{
+    width:990px;
+    padding: 30px 15px 0;
+    background-color:coral;
+    margin: 50px auto;
+}
+article>div{
+    overflow: hidden;
+}
+article figure{
+    /* width:220px; */
+    margin: 0 10px 20px;
+    float:left;
+    position: relative;
+}
+
+article figure>figcaption{
+    background-color:rgba(0,0,0,0);
+    position:absolute;
+    left:0; top:0;
+    width:100%;
+    font:bold 18px/ 220px  Arial sans-serif;
+    text-align: center;
+    color:#fff;
+}
+
+
+article>figure.best>figcaption{
+    line-height:460px;
+}
+article figure.best>figcaption>span{
+    position: absolute;
+    left:0; top:0;
+    line-height:10px;
+  
+}

@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrap{
+    background-color: yellow;
+    width:600px;
+    height:640px;
+    padding:10px;
+    box-sizing: border-box;
+    margin:auto;
+}
+header{
+    margin:16px;
+}
+
+h1{
+    background-color:white;
+    width:560px;
+    text-align: center;
+    color:red;
+    margin-bottom:30px;
+}
+
+section{
+    width:560px;
+    background-color: chartreuse;
+    margin-left:17px;
+    font-style: italic;
+}
+
+.left{
+    float:left;
+    background-color:darkgreen;
+    width:275px;
+    /* line-height:20px; */
+    
+}
+.right{
+    float:right;
+    background-color:red ;
+    width:275px;
+    /* line-height: 20px; */
+}
+
+.bottom{
+    margin-bottom:40px;
+}
+
+footer{
+    background-color: gray;
+    line-height: 30px;
+    width:560px;
+    margin-left:17px;
+    text-align: center;
+}

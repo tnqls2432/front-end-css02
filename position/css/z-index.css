@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{width:180px; height:180px;
+  position: fixed;
+}
+.box_01{background-color:red;
+  left:150px; top:150px; z-index:400;
+}
+.box_02{background-color:green;
+  left:200px; top:200px; z-index:400;
+}
+.box_03{background-color:orange;
+left:250px; top:250px;
+z-index:100;}
+.box_04{background-color:pink;
+left:300px; top:300px;
+z-index:300;}
+/* auto 개념 */

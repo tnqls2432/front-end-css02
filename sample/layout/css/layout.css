@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* h2{
+    height:0;
+    overflow: hidden;
+} 가볍게: 숨기기
+*/ 
+
+/* 교과서적으로 : 크기 없애고 width:0; height:0; font-size:0; line-height:0; 
+다른요소 방행 없게: 공중부양 position fixed, absolute
+안보이게 visibility: hidden  클래스 .hide, .hidden
+*/
+
+.hide{
+    width:0; height:0;
+    font-size: 0; line-height: 0;
+    position: absolute;
+    visibility: hidden;
+}
+
+body{font:15px "나눔고딕", sans-serif;}
+#headerwrap{
+    width:auto;
+    background-color:#f62a6b;
+    padding:30px 0 18px;
+    margin-bottom: 10px;
+}
+
+header{
+    width:1027px;
+    margin: 0 auto;
+    background-color: pink;
+}
+header>h1{
+    /* width:auto; */
+    margin: 0 0 20px 25px;
+}
+header>h1>a{
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+}
+nav>ul{
+    text-align: right;
+    margin-right:25px;
+}
+nav>ul>li{
+display: inline-block;
+border-left:1px solid #fff;
+padding:0 10px;
+}
+nav>ul>li:first-child{
+    border-left: none;
+}
+nav>ul>li>a{
+    font-size:14px;
+    color:white;
+}
+
+div#content{
+    clear:both;
+    width:1027px;
+    /* background-color: darkgray; */
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+
+div#content article{ 
+    width:800px;
+    float:right;
+    padding:35px 20px 25px;
+    background-color: #666;
+    box-sizing: border-box;
+}
+div#content aside{
+    width:200px;
+    float:left;
+    background-color: violet;
+}
+
+article>h3{
+    font-size: 30px;
+    text-align: center;
+    color:gold;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+article p{
+    margin-bottom:20px;
+    text-align:justify;
+    line-height:28px;
+    color:white;
+}
+article>section>h4{
+    /* width:auto; */
+    margin-bottom:25px;
+    border-top:5px double #eee;
+    border-bottom: 5px double #eee;
+    font-size:18px;
+    line-height:42px;
+    color:yellow;
+    text-align:center;
+}
+article>section{
+    width:372px;
+}
+article>section.left{
+    float:left;
+}
+article>section.right{
+    float:right;
+}
+article>section.bottom{
+    width:auto;
+    clear: both;
+}
+article>p{
+    margin-bottom:53px;
+}
+
+aside>h4{
+    width:auto;
+    border-top:5px double black;
+    border-bottom:5px double black;
+    padding:25px 0;
+    font-size:20px;
+    font-weight:bolder;
+    text-align: center;
+    color:#fff;
+    background-color:purple;
+}
+
+aside>ul>li{
+    border-bottom: 1px solid blue;
+}
+aside>ul>li>a{
+    display: block;
+    font-size:16px;
+    line-height:43px;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+aside>ul>li>a:hover{
+    background-color: black;
+    color:yellow;
+}
+footer{
+    clear: both;
+    background-color: #333;
+    padding:15px 0;
+    text-align: center;
+    color:white;
+}
+
+
+
+			
